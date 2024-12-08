@@ -1,34 +1,36 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    background: linear-gradient(#f4120a, #e6e6e9);
     color: #ffffff;
     
 }
 
 h1, h2, h3, h4, p {
-    text-shadow: 0 0 1px black;
+    text-shadow: 0 0 2px black;
 }
 
-#bff-img {
-    width: 150px;
+#birthday-boy-img {
+    width: 200px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid #e6e6e9;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #EFB0C9;
+    background: #e6e6e9;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
+    text-shadow: 0px 0px 3px #f4120a;
 }
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+    background: #e6e6e9;
     padding: 5px 10px;
     border-radius: 5px;
+    text-shadow: 0px 0px 3px #f4120a;   
 }
 
 #header {
@@ -49,7 +51,7 @@ h1, h2, h3, h4, p {
     margin-top: 0;
 }
 
-#gift-img-cheers {
+#gift-img-goal {
     height: 200px;
 }
 
@@ -59,36 +61,38 @@ h1, h2, h3, h4, p {
     height: 400px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("./images/gift-cover.jpg");
+    background-image: url("./images/gift-cover.webp");
     background-size: cover;
 }
 
 #gift-img-happy:hover {
-    background-image: url("./images/happy.gif");
+    background-image: url("./images/happy.webp");
 }
 
 #gift-img-hot:hover {
-    background-image: url("./images/hot.gif");
+    background-image: url("./images/hot.webp");
 }
 
-#gift-img-genius:hover {
-    background-image: url("./images/genius.gif");
+#gift-img-claps:hover {
+    background-image: url("./images/celeration.webp");
 }
 
 #gift-img-badass:hover {
     background-image: url("./images/badass.gif");
 }
 
-#gift-img-cheers:hover {
-    background-image: url("./images/cheers.gif");
+#gift-img-goal:hover {
+    background-image: url("./images/goal.webp");
 }
 
 #footer {
     font-style: italic;
     width: 400px;
     margin: 40px auto 20px;
+    color: #f4120a;
+    text-shadow: 0px 0px 3px #f4120a;
 }
 
 a {
-    color: white;
+    color: #f4120a;
 }
